@@ -60,7 +60,7 @@ async function run() {
 run().catch(console.dir);
 require("dotenv").config();
 app.get("/", (req, res) => {
-  res.send("Port running on ", port);
+  res.send("Port running on ");
 });
 app.listen(port, () => {
   console.log("running");
